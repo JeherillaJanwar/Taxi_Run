@@ -1132,7 +1132,7 @@ Particle.prototype = {
 		if (!(this.x > wld.camX + P.w + 200 || this.y > wld.camY + P.h + 200 || this.x < wld.camX - 200 || this.y < wld.camY - 200)) {
 			var t = this.pointUpperPosition(this.x, this.y, .2),
 				i = this.pointUpperPosition(this.x, this.y, .4);
-			c.strokeStyle = "#000", c.lineWidth = 15, bp(), mt(this.x, this.y), lt(i.x, i.y), stroke(), di(tree, t.x - tree.width / 2, t.y - tree.height / 2), di(tree2, i.x - tree2.width / 2, i.y - tree2.height / 2)
+			c.strokeStyle = "#5a3900", c.lineWidth = 15, bp(), mt(this.x, this.y), lt(i.x, i.y), stroke(), di(tree, t.x - tree.width / 2, t.y - tree.height / 2), di(tree2, i.x - tree2.width / 2, i.y - tree2.height / 2)
 		}
 	},
 	contains: function(t, i) {
